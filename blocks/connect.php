@@ -1,3 +1,8 @@
 <?php
-$mysql = new mysqli('', 'root', '', 'register-bd');
+
+require "../blocks/pass.php";
+
+$mysql = new mysqli($server, $username, $password, $database);
+
+
 ?>
